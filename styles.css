@@ -1,0 +1,50 @@
+a{
+  text-decoration: none;
+  color:#b85107;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+body{
+  background-color:#f7ece1;
+  font-family: sans-serif;
+}
+
+h1{
+  color:#2e2d2c;
+}
+
+h2{
+  color:#2e2d2c;
+}
+
+h3{
+  color:#2e2d2c;
+}
+
+ul{
+  color:#2e2d2c;
+}
+
+
+.logo{
+  width:100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper{
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero{
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
