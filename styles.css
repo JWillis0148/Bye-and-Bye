@@ -8,23 +8,33 @@ a:hover{
   text-decoration: underline;
 }
 
-
-
-h1{
-  color:#2e2d2c;
-  font-size: 1.1em;
-}
-
 h2{
   color:#2e2d2c;
+  font-size: 2em;
+  text-align: center;
 }
 
 h3{
   color:#2e2d2c;
+  font-size: 1.1em;
+  text-align: center;
 }
 
 ul{
   color:#2e2d2c;
+  width: 200px;
+
+}
+
+.menu-container{
+  width:200px;
+  margin: auto;
+}
+.menu-container  img{
+  float: left;
+}
+.cup{
+  width:
 }
 
 
@@ -49,13 +59,28 @@ body{
   width: 90%;
   margin:auto;
   padding: 10px;
-  background-color:
+  display: block;
 }
 
+.navbar{
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+
+}
 
 .hero{
   width:100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background:url("images/hero.png");
+  height:400px;
+  background-position: center;
+  background-size: cover;
+  /* remove height when I have an image */
+  /* I can use max-width 100% also*/
+}
+
+.mugs{
+  width: 150px;
+  height:150px;
+
 }
