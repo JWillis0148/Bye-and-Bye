@@ -1,12 +1,36 @@
+
+*{
+  box-sizing: border-box;
+}
 a{
   text-decoration: none;
   color:#b85107;
   font-size: 2em;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }
 
 a:hover{
   text-decoration: underline;
 }
+
+nav a{
+  display: inline-block;
+  padding: 30px;
+}
+
+.hero{
+  width:100%;
+  background:url("images/hero.png");
+  height:450px;
+  background-position: center;
+  background-size: cover;
+  padding-bottom:10px
+  /* remove height when I have an image */
+  /* I can use max-width 100% also*/
+}
+
 
 h2{
   color:#2e2d2c;
@@ -26,15 +50,39 @@ ul{
 
 }
 
-.menu-container{
-  width:200px;
-  margin: auto;
+.container{
+display:flex;
 }
-.menu-container  img{
-  float: left;
+
+section .latte-flexbox{
+  display: flex;
+  width:30%;
 }
-.cup{
-  width:
+
+section .iced-flexbox{
+  display: flex;
+  width:30%;
+}
+
+section .macchiato-flexbox{
+  display: flex;
+  width:30%;
+}
+
+section .coldbrew-flexbox{
+  display: flex;
+  width:30%;
+}
+
+section .bakery-flexbox{
+  display: flex;
+  width:30%;
+}
+
+
+.container ul{
+  display: block;
+
 }
 
 
@@ -55,13 +103,6 @@ body{
   color:black;
 }
 
-.wrapper{
-  width: 90%;
-  margin:auto;
-  padding: 10px;
-  display: block;
-}
-
 .navbar{
   margin-left: auto;
   margin-right: auto;
@@ -72,15 +113,30 @@ body{
 .hero{
   width:100%;
   background:url("images/hero.png");
-  height:400px;
+  height:450px;
   background-position: center;
   background-size: cover;
   /* remove height when I have an image */
   /* I can use max-width 100% also*/
 }
 
+
+/* menu styles end here */
+.hero-contact{
+  width:100%;
+  background:url("images/wys.jpeg");
+  height:450px;
+  background-position: center;
+  background-size: cover;
+  /* remove height when I have an image */
+  /* I can use max-width 100% also*/
+}
+
+
+
 input[type=submit]{
-  width: 10%;
+  min-width: 10%;
+  max-width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
   display:block;
@@ -97,4 +153,80 @@ input{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+/* contact styles end here */
+/* about styles start here */
+.hero-about{
+  width:100%;
+  background:url("images/byeandbyebeans.png");
+  height:450px;
+  background-position: center;
+  background-size: cover;
+  /* remove height when I have an image */
+  /* I can use max-width 100% also*/
+}
+
+.hero-about h1{
+  padding-top:250px;
+  font-size: 2.5em;
+  line-height: 1em;
+  max-width:100%;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: white;
+}
+
+.wrapper{
+  width: 600px;
+  margin:auto;
+  padding: 10px;
+  display: block;
+  background-color: #fcf8f5;
+}
+.baylor{
+  width: 15%;
+  padding:20px;
+}
+
+section p{
+  text-align: center;
+  width:400px;
+  padding-top: 55px;
+  font-size: 1em;
+}
+
+.flex-container{
+  display: flex;
+  width: 1000px;
+}
+
+.header{
+ text-align: center;
+}
+
+h1{
+  text-align: center;
+
+}
+
+.footer{
+  display: block;
+  padding-left: 20px;
+
+}
+
+.footer img{
+  width:10%;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+
+
+/* desktop styles here */
+
+@media only screen and (min-width:700px){
+  nav li{
+    display:inline;
+
+
 }
