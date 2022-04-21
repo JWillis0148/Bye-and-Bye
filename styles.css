@@ -171,8 +171,9 @@ input{
   font-size: 2.5em;
   line-height: 1em;
   max-width:100%;
-  -webkit-text-stroke: 2px black;
-  -webkit-text-fill-color: white;
+  color:white;
+  text-shadow: 2px 2px #000000;
+
 }
 
 .wrapper{
